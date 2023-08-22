@@ -1,0 +1,111 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px){
+   html{
+      font-size: 37.5%;
+      font-family: 'Montserrat', sans-serif;
+   }
+
+   .container{
+      max-width: 80vw;
+      width: 100%;
+   }
+
+   .para-size{
+      font-size: 2.15rem;
+   }
+
+   .md-heading{
+      font-size: 2.5rem;
+      font-weight: 600;
+   }
+
+   .logo{
+      padding-right: 30px;
+   }
+
+   .image{
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+   }
+   
+.banner{
+   display: flex;
+   flex-direction: column;
+   margin: 3rem 5% 1rem;
+   height: 250px;
+   justify-content: space-around;
+}
+
+.box{
+   flex-basis: 25%;
+}
+
+.box-text{
+   font-size: 1.9rem;
+   padding: 0 1.3rem;
+   margin: 0.7rem 0.4rem;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px){
+   html{
+      font-size: 50%;
+      font-family: 'Montserrat', sans-serif;
+   }
+
+   .banner{
+      display: flex;
+      flex-direction: column;
+      margin: 3rem 5% 1rem;
+      height: 250px;
+      justify-content: space-around;
+   }
+   
+   .box{
+      flex-basis: 25%;
+   }
+
+   .box-text{
+      font-size: 1.7rem;
+   }
+}
+
+@media only screen and (min-width: 1024px){
+   html{
+      font-size: 62.5%;
+   }
+
+   .banner{
+      display: flex;
+      flex-direction: row;
+      margin: 3rem 5% 1rem;
+      height: 100px;
+      justify-content: space-around;
+   }
+   
+   .box{
+      flex-basis: 30%;
+      background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),#fcfcfce4;
+      box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.403);
+   }
+   
+   
+   .box h3{
+      text-align: center;
+      padding: 0.5rem 0;
+   }
+   
+   .box-text{
+      font-size: 1.5rem;
+      padding: 0 1rem;
+      margin: 0 0.3rem;
+      text-align: center;
+   }
+}
+
+

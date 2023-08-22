@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*,
+*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+:root{
+   --blue : #009ffd;
+   --yellow : #FFD917;
+   --white : #fff;
+}
+
+html{
+   font-family: 'Poppins', sans-serif;
+   font-size: 62.5%;
+}
+
+
+
+a{
+   font-size: 1.8rem;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+/* ################ utility classes ################ */
+
+.container{
+   max-width: 1400px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+.lg-heading{
+   font-size: 4.8rem;
+   font-weight: 700;
+}
+
+.md-heading{
+   font-size: 3.6rem;
+   font-weight: 600;
+}
+
+.sm-heading{
+   font-size: 2.4rem;
+}
+
+.para-size{
+   font-size: 1.6rem;
+}
+
+.btn{
+   display: inline-block;
+   padding: 0.6em 1em;
+   width: 50%;
+   margin: 1em 25%;
+   text-align: center;
+   border-radius: 10px;
+   color: black;
+}
+
+
+.yellow-color{
+   background: var(--yellow);
+}
+
+.blue-color{
+   background: var(--blue);
+}
+
+.white-color{
+   color: var(--white);
+}
+
+.strike{
+   text-decoration: line-through;
+}
+
+
+/* ################# hero section ############### */
+
+.hero-section{
+   min-height: 95vh;
+   background-image: linear-gradient(to right,#172d4a 2%,rgba(0, 0, 0,0.0011)),url("../img/hero.jpg");
+   background-color: #172d4a;
+   background-position: 100% 60%;
+   background-repeat: no-repeat;
+   background-size: 47%;
+}
+
+.head{
+   position: relative;
+   min-height: 95vh;
+}
+
+.head-wrap{
+   position: absolute;
+   width: 54%;
+   top: 20%;
+}
+
+
+.head h1,
+.head h2{
+   font-size: 4rem;
+   text-align: left;
+   margin-bottom: 0.12em;
+   color: white;
+}
+
+.para{
+   text-align: left;
+   color: white;
+}
+
+
+/* ############# guide section styling ############### */
+
+.guide-wrap{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.guide-item{
+   display: flex;
+   width: 25%;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 1em;
+   margin: 3em 0 1.5em 0;
+}
+
+section.guide p{
+   font-size: 2rem;
+   font-weight: 500;
+   margin-left: 1em;
+}
+
+/* ################## feature section styling ############# */
+
+.feature{
+   margin-top: 6em;
+   background: #F8F7FF;
+}
+
+.feature-wrap{
+   display: flex;
+   justify-content: space-around;
+   min-height: 80vh;
+}
+
+.feature h1{
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 1em;
+   padding: 0.8em 0;
+}
+.feature p{
+   font-weight: 600;
+   margin-bottom: 0.5em;
+}
+
+.feature-item{
+   width: 48%;
+}
+
+.text-box{
+   padding: 1em;
+   width: 100%;
+}
+
+.text-box ul li{
+   display: inline-flex;
+   list-style: none;
+   font-weight: 500;
+   border: 2px solid gray;
+   padding: 10px;
+   margin: 1em 0;
+}
+
+.text-box ul li::before{
+   content: "\2713";
+   color: var(--blue);
+   font-size: x-large;
+   font-weight: 800;
+   padding-right: 1rem;
+}
+
+.text-box ul li{
+   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.img-box img{
+   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.img-box,img{
+   width: 100%;
+}
+
+/* ############## benefits section styling ################# */
+
+.benefits{
+   margin-top: 6em;
+   background: #F8F7FF;
+}
+
+.benefits-wrap{
+   width: 50%;
+   margin: 0 auto;
+}
+
+.benefits-item{
+   border: 2px solid gray;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 2em;
+   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.089);
+}
+
+
+
+.benefits-box h1{
+   font-weight: 600;
+   text-align: center;
+   margin-bottom: 1em;
+   padding: 0.8em 0;
+}
+
+.text-item{
+   width: 70%;
+   text-align: center;
+   margin-right: 10%;
+}
+
+.text-item p{
+   font-size: 2rem;
+   font-weight: 500;
+   margin-top: 1em;
+}
+
+.img-item{
+   width: 10%;
+   padding: 1em;
+}
+
+.img-item img{
+   width: 64px;
+   height: 64px;
+}
+
+
+/* ################# membership section styling ############### */
+
+.membership{
+   margin-top: 6em;
+   background: #F8F7FF;
+}
+
+.membership-wrap{
+   border: 1px solid black;
+   border-right: none;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+   min-height: 60vh;
+   align-items: center;
+}
+
+.membership-wrap h3{
+   font-size: 2.2rem;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+   text-align: center;
+}
+
+.membership-item{
+   width: 33.33%;
+   border-right: 1px solid black;
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+
+.membership-wrap ul li{
+   display: inline-flex;
+   font-size: 1.6rem;
+   font-weight: 400;
+   padding: 0.6rem;
+   margin-bottom: 0.8rem;
+   text-align: left;
+}
+
+.membership-wrap ul li::before{
+   content: "\2713";
+   color: var(--blue);
+   font-size: x-large;
+   font-weight: 800;
+   padding-right: 1rem;
+}
+
+.membership-wrap a{
+   font-size: 1.5rem;
+   padding: 0.8em;
+   margin: 1.3em 10%;
+   width: 80%;
+}
+
+/* ############### entrepreneur section styling ########### */
+
+.entrepreneurs{
+   margin-top: 6em;
+   margin-bottom: 3em;
+   background: #F8F7FF;
+}
+
+.entrepreneurs h1{
+   font-size: 4rem;
+   width: 60%;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 4rem;
+   padding: 0.8em 0;
+}
+
+.entrepreneur-wrap{
+   min-height: 90vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.overlay-container{
+   position: relative;
+   width: 31%;
+   margin-top: 3.5em;
+   box-shadow: 5px 5px 5px rgba(32, 32, 32, 0.377);
+}
+
+.overlay{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(0, 0, 0, 0.737);
+   overflow: hidden;
+   width: 100%;
+   height: 0;
+   transition: .5s ease;
+}
+
+.overlay-container:hover .overlay{
+   height: 100%;
+}
+
+.text {
+   color: white;
+   font-size: 1.5rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+.image{
+   display: block;
+   width: 100%;
+   height: 360px;
+   object-fit: cover;
+   object-position: top center;
+}
+
+span.name{
+   display: block;
+   font-size: 2rem;
+   font-weight: 600;
+   margin-top: 3rem;
+}
