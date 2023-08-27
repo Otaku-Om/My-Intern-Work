@@ -5,3 +5,5 @@ I did a internship in the My Digital Marketer as a Junior Web Developer and crea
 
 In this repo i am showing the work i have done for the major client of My Digital Marketer 
 That major client was Internet Moguls and i had designed these landing pages for the Avi Arya
+
+Live Link of the landing page that i had developed during the internship https://clever-smakager-bc70bd.netlify.app
