@@ -7,3 +7,5 @@ In this repo i am showing the work i have done for the major client of My Digita
 That major client was Internet Moguls and i had designed these landing pages for the Avi Arya
 
 Live Link of the landing page that i had developed during the internship https://clever-smakager-bc70bd.netlify.app
+
+live Link of the landing page that i had created during my internship https://adorable-crisp-8d7f92.netlify.app
